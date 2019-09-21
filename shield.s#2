@@ -8163,8 +8163,8 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="NAME" x="76.2" y="50.038" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.406" y="47.879" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="60.96" y="73.66" smashed="yes">
-<attribute name="VALUE" x="58.42" y="71.12" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="68.58" y="40.64" smashed="yes">
+<attribute name="VALUE" x="66.04" y="38.1" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8222,10 +8222,11 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="71.12" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="76.2" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="-3" pin="S"/>
-<wire x1="66.04" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="66.04" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<junction x="66.04" y="76.2"/>
+<wire x1="68.58" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="43.18" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
+<junction x="68.58" y="66.04"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8289,17 +8290,17 @@ Low profile connectors, straight&lt;p&gt;
 <net name="N$9" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="17"/>
-<wire x1="45.72" y1="71.12" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="-2" pin="S"/>
-<wire x1="71.12" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="-4" pin="S"/>
+<wire x1="45.72" y1="60.96" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="SV1" gate="-4" pin="S"/>
 <pinref part="J2" gate="G$1" pin="15"/>
-<wire x1="71.12" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="60.96" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="71.12" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="-2" pin="S"/>
+<wire x1="43.18" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">

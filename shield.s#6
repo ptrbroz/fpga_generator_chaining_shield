@@ -8230,11 +8230,13 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="27.94" y1="27.94" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="X_S" gate="G$1" pin="1"/>
 <pinref part="R_LOAD" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="27.94" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <junction x="27.94" y="10.16"/>
 </segment>
 </net>
@@ -8247,7 +8249,9 @@ Low profile connectors, straight&lt;p&gt;
 <net name="N$20" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="9"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8274,11 +8278,12 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="27.94" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="45.72" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="14"/>
+<wire x1="12.7" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8327,6 +8332,14 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="X_M2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="27.94" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-10.16" x2="58.42" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="8"/>
+<wire x1="-38.1" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="25.4" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
