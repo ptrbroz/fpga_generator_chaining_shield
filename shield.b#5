@@ -260,7 +260,7 @@
 <text x="25.654" y="18.161" size="2.286" layer="21">AA4CC</text>
 <text x="35.56" y="18.415" size="0.762" layer="21">Shield for DE0-Nano
 signal generator sync</text>
-<text x="43.18" y="17.78" size="0.254" layer="21">V1.0 developed 2019</text>
+<text x="42.926" y="17.78" size="0.254" layer="21">V1.0 developed 2019</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
